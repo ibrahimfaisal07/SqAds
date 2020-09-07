@@ -1,0 +1,62 @@
+
+html,body { margin:0; padding:0; height:100%; width:100%; overflow: hidden;}
+
+#codeText {
+    height: 100%;
+    width:50%;
+    display:inline-block;
+    resize: none;
+    font-size: 20px;
+    color: white;
+    background-color:#262626;
+    border: none;
+}
+
+#container {
+	height:100%;
+	width:auto;
+  white-space : nowrap; 
+  overflow : hidden;
+  position:relative;
+}
+
+#iframe {
+	height:100%;
+	display:inline-block;
+	width:50%;
+}
+
+h1{
+    font-family: monospace;
+    color: white;
+}
+
+#topBar{
+    width: 100%;
+    display: inline-block;
+    background-color: dodgerblue;
+}
+
+button{
+    background-color: green;
+    margin-bottom: 10px;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 15px;
+    color: white;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+ul{
+    display: inline;
+}
+li{
+    text-decoration: none;
+}
+#funcs{
+    display: inline;
+}
